@@ -18,6 +18,7 @@ public interface DoctorDao {
     public HashMap searchById(int id);
     public void update(Map param);
     public void deleteByIds(Integer[] ids);
+    public ArrayList<HashMap> searchByDeptSubId(int deptSubId);
 
 }
 

@@ -135,5 +135,12 @@ public class DoctorServiceImpl implements DoctorService {
         doctorDao.deleteByIds(ids);
     }
 
+    @Override
+    public ArrayList<HashMap> searchByDeptSubId(int deptSubId) {
+        ArrayList<HashMap> list = doctorDao.searchByDeptSubId(deptSubId);
+        return list;
+    }
+
+
 }
 

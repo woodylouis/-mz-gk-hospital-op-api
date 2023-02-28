@@ -11,5 +11,7 @@ import java.util.Map;
  */
 public interface MedicalDeptSubWorkPlanService {
     public JSONArray searchWorkPlanInRange(Map param, ArrayList dateList);
+    public String insert(Map param);
+
 }
 
