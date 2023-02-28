@@ -3,6 +3,7 @@ package com.example.hospital.api.service;
 import com.example.hospital.api.db.pojo.DoctorWorkPlanScheduleEntity;
 
 import java.util.ArrayList;
+import java.util.Map;
 
 /**
  * @author WENJIN LI
@@ -10,5 +11,7 @@ import java.util.ArrayList;
  */
 public interface DoctorWorkPlanScheduleService {
     public void insert(ArrayList<DoctorWorkPlanScheduleEntity> list);
+    public ArrayList searchDeptSubSchedule(Map param);
+
 }
 
